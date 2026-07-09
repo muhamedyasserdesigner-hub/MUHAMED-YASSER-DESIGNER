@@ -1,0 +1,11 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c1121f" />
+      <stop offset="100%" stop-color="#ff6a00" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="48" fill="url(#gradC)" />
+  <text x="50%" y="45%" text-anchor="middle" dominant-baseline="middle" font-family="Inter, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Velora 3D Launch</text>
+  <text x="50%" y="60%" text-anchor="middle" dominant-baseline="middle" font-family="Inter, sans-serif" font-size="28" fill="#ffd0b3">3D Visualization</text>
+</svg>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start a Project | Mohamed Yasser</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><div class="vignette"></div><div class="grid-overlay"></div>
+    <nav class="side-nav" aria-label="Main pages">
+      <a href="portfolio.html"><span>Portfolio</span><i></i></a><a href="services.html"><span>Services</span><i></i></a><a href="about.html"><span>About</span><i></i></a><a href="experience.html"><span>Experience</span><i></i></a><a href="contact.html"><span>Contact</span><i></i></a>
+    </nav>
+    <main class="page-section reveal">
+      <div class="wide-card start-card">
+        <div class="section-head plain">
+          <div>
+            <p class="eyebrow">Start a Project</p>
+            <h2>Send your brief and budget in one elegant form.</h2>
+            <p>Share project details, your vision, and the budget line. This static form shows a confirmation without any server.</p>
+          </div>
+          <a class="btn ghost" href="index.html">Back Home</a>
+        </div>
+        <form id="briefForm" class="brief-form">
+          <div class="form-panel">
+            <label>Full Name<input required name="name" type="text" placeholder="Your name" /></label>
+            <label>Email<input required name="email" type="email" placeholder="you@example.com" /></label>
+            <label>Project Title<input required name="title" type="text" placeholder="Brand identity for new launch" /></label>
+            <label>Budget<input required name="budget" type="text" placeholder="e.g. $4,500" /></label>
+          </div>
+          <div class="form-panel">
+            <label>Project Brief<textarea required name="brief" rows="10" placeholder="Describe your vision, goals, assets, and desired tone..."></textarea></label>
+            <button class="btn primary full" type="submit">Send Project Brief</button>
+          </div>
+        </form>
+        <div id="thanksMessage" class="thanks hidden">
+          <p class="eyebrow">Brief submitted</p>
+          <h3>Thanks for sharing your project details.</h3>
+          <p>I will review your brief and reach out within one business day. You can also email hello@mohamedyasser.com directly.</p>
+          <button class="btn ghost" id="editSubmission" type="button">Edit Submission</button>
+        </div>
+      </div>
+    </main>
+    <a class="logo-button back-button" href="index.html" aria-label="Back to home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.8 5.2 4 12l6.8 6.8 1.5-1.5L8.1 13H20v-2H8.1l4.2-4.3-1.5-1.5Z"/></svg></a>
+    <script src="script.js"></script>
+  </body>
+</html>
