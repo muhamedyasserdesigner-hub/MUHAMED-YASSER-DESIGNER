@@ -159,7 +159,7 @@ p { color: #c7c7c7; line-height: 1.8; }
 .fade-floor { position: absolute; inset-inline: 0; bottom: 0; z-index: 4; height: min(30rem, 40vh); background: radial-gradient(ellipse at 50% 100%, rgba(6,6,6,0.95), rgba(6,6,6,0.7) 22%, rgba(6,6,6,0.45) 42%, rgba(6,6,6,0.22) 62%, transparent 90%); filter: blur(24px); }
 .float-cards-stack {
   position: absolute;
-  top: 26%;
+  top: 34%;
   right: 4%;
   z-index: 7;
   display: flex;
