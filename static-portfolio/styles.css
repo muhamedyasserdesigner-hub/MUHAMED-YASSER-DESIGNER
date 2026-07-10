@@ -203,6 +203,23 @@ p { color: #c7c7c7; line-height: 1.8; }
 }
 .float-card small { display: block; color: #ffcc9f; font-size: 9px; text-transform: uppercase; letter-spacing: 0.25em; position: relative; z-index: 1; }
 .float-card span { display: block; margin-top: 2px; font-size: 11px; color: #fff; position: relative; z-index: 1; }
+.float-arrow {
+  position: absolute;
+  z-index: 8;
+  top: 28%;
+  right: 18%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255,255,255,0.4);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  animation: arrowPoint 2s ease-in-out infinite;
+  pointer-events: none;
+}
+.float-arrow svg { width: 20px; height: 20px; transform: scaleX(-1); }
+
 .card-one { animation: tiltOne 9s ease-in-out infinite; transform-origin: right top; }
 .card-two { animation: tiltTwo 10s ease-in-out infinite; transform-origin: right top; }
 .card-three { animation: tiltThree 8s ease-in-out infinite; transform-origin: right top; }
@@ -381,6 +398,10 @@ input:focus, textarea:focus { border-color: var(--orange-2); box-shadow: 0 0 0 3
 @keyframes liquidShine {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+@keyframes arrowPoint {
+  0%, 100% { transform: translateX(0); opacity: 0.4; }
+  50% { transform: translateX(-6px); opacity: 0.8; }
 }
 
 @media (min-width: 640px) {
