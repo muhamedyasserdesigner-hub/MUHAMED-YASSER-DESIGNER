@@ -143,9 +143,9 @@ p { color: #c7c7c7; line-height: 1.8; }
 .hero-visual img {
   position: absolute;
   z-index: 5;
-  inset: 0;
-  margin: auto;
-  height: 100%;
+  left: -12%;
+  top: -6%;
+  height: 112%;
   width: auto;
   max-width: none;
   object-fit: contain;
